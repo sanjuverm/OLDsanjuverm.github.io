@@ -1,81 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"><head>
 
-<head>
-	<title> Sanjna's Webpage</title>
-	<meta charset="utf-8" />
- 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	 <meta name="viewport" content="width=device-width, initial-scale=1" />
- 	<meta name="viewport" content="width=device-width, initial-scale=1" />
- 	<meta name="description" content="Trying to learn to code my website again from scratch" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
- 	<style type="text/css">
- 		p {
- 			color:red;
- 		}
+    <title>Sanjna Verma - Home</title>
 
- 		.about{
- 			font-size: 150%;
- 			color:blue;
- 		}
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
- 		.pictures{
- 			font-size: 100%;
- 			background-color:#5882FA;
- 		}
- 	</style>
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+
 <body>
 
-	<!--
-	1) About Sanjna + Hackers of NYC
-	2) Instagram Feed
-	3) Pilot
-	4) Traveling to China
-	5) Traveling to New Zealand
-	6) New York 
-	7) SF
-	8) Design Work 
-	9) Contact me
-	-->
-	
-	<h1>Hello World</h1>
-	<p>I'm hosted with GitHub Pages.This is an elementay HTML website for personal practice<br>FYI it is now fitted for mobile view</p>
-<hr> 
+    <div class="brand">Sanjna Verma</div>
+    <div class="address-bar">traveler | 'grammer | other things</div>
 
-<div class="about">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Sanjna Verma</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="code.html">Code</a>
+                    </li>
+                    <li>
+                        <a href="travel.html">Travel</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-	<p class = "red">Sanjna Verma is a sophomore undergraduate student studying Economics and Computer Science. She likes to experiment, wants to research, revolutionize the travel industry, and loves to do big. </p>
+    <div class="container">
 
-</div>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+                        </ol>
 
-<div class="pictures">
-	<p><img src="http://static1.squarespace.com/static/532f3936e4b078ca803bd316/53b630ace4b021fd1bd2e654/53b726fde4b0cb9c953ec7d6/1404684463198/IMG_2096.JPG?format=1500w" align= middle width= 500><br>I love to travel</p>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                            </div>
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                            </div>
+                        </div>
 
-	<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small></small>
+                    </h2>
+                    <h1 class="brand-name">Sanjna Verma</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>NYU      <strong>2017</strong>
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
 
-</div>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">A little bit about me 
+                        <strong></strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
+                    <hr class="visible-xs">
+                    <p>Hi! My name is Sanjna Verma and I am a student at NYU where I study Economics and Computer Science, and dabble with Math and design. "The secret of the world is this: the world is entirely circular and you will go round and round endlessly, never finding what you want unless you have found what you really want inside yourself. It will only ever lead you back to yourself. The end of all your exploring will be to cease from exploration and know the place for the first time"
+</p>
+                    <p></p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">What's new?                        <strong> May 16 </strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-middle" src="img/intro-pic2.jpg" alt="">
+                    <p>Spent part of my last weekend in New York City at TedxTeen with my best friend, Monique Coleman (High School Musical/UN/awesomeness), and Ben Nemtin from <a href="http://theburiedlife.com" target= "_blank">The Buried Life</a>! Do excuse the tired circles but had such an amazing "study break" at the event</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright © Sanjna Verma 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 
-	<p><img src="http://static1.squarespace.com/static/532f3936e4b078ca803bd316/53b630ace4b021fd1bd2e654/53b726fde4b0cb9c953ec7d6/1404684463198/IMG_2096.JPG?format=1500w" align= left width= 500><br>I love to travel</p>
-
-	<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br>
-<table>
-	<tr><th>Computer Science</th><th> Economics </th><th>Other</th></tr>
-	<tr><td>Intro to Programming</td><td>Intro to Micro</td><td>Finding New York City: Journalism</td></tr>
 
 
-</table>
-	<a href = "sanjverma.com">Click me to go to my completed website!</a>
 
-	<br><br><br><br><br><br><br><br><br>
 
-	<a href = "#top">Go to top</a>
-
-</body>
-</html>
+</body></html>
