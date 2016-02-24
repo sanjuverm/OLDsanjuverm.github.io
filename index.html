@@ -41,7 +41,7 @@
 </head>
 
 <body class="home">
-    <div id="div1">
+    <div id="div1" class="bg-light-gray">
 
             <header class="centered">
                 <h1><font color = "white"></font>Sanjna Verma</font></h1>
@@ -133,10 +133,183 @@
                         </li> -->
                     </ul>
                 </div>
-            </div>
+            </div> <!-- end div row-->
+
+
+            <!-- Portfolio Grid Section -->
+             <section id="portfolio" class="bg-light-gray">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-lg-12 text-center">
+                             <!-- <h2 class="section-heading">Portfolio</h2> -->
+                             <h1>Some (cool) things I've done</h1>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-4 col-sm-6 portfolio-item">
+                             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                 <div class="portfolio-hover">
+                                     <div class="portfolio-hover-content">
+                                         <i class="fa fa-plus fa-3x"></i>
+                                     </div>
+                                 </div>
+                                 <img src="img/designs/fashionisha-after.png" class="img-responsive" alt="">
+                             </a>
+                             <!-- <div class="portfolio-caption">
+                                 <h4>FashioNisha</h4>
+                                 <p class="text-muted">Graphic Design</p>
+                             </div> -->
+                         </div>
+                         <div class="col-md-4 col-sm-6 portfolio-item">
+                             <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                                 <div class="portfolio-hover">
+                                     <div class="portfolio-hover-content">
+                                         <i class="fa fa-plus fa-3x"></i>
+                                     </div>
+                                 </div>
+                                 <img src="img/designs/united_flight_page.png" class="img-responsive" alt="">
+                             </a>
+                             <!-- <div class="portfolio-caption">
+                                 <h4>Startup Framework</h4>
+                                 <p class="text-muted">Website Design</p>
+                             </div> -->
+                         </div>
+                         <div class="col-md-4 col-sm-6 portfolio-item">
+                             <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                                 <div class="portfolio-hover">
+                                     <div class="portfolio-hover-content">
+                                         <i class="fa fa-plus fa-3x"></i>
+                                     </div>
+                                 </div>
+                                 <img src="img/designs/header-bg-berries.jpg" class="img-responsive" alt="">
+                             </a>
+                             <!-- <div class="portfolio-caption">
+                                 <h4>Treehouse</h4>
+                                 <p class="text-muted">Website Design</p>
+                             </div> -->
+                         </div>
+
+
+                     </div>
+                 </div>
+             </section>
+
+             <!-- Portfolio Modals -->
+             <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+             <!-- Portfolio Modal 1 -->
+             <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                 <div class="modal-content">
+                     <div class="close-modal" data-dismiss="modal">
+                         <div class="lr">
+                             <div class="rl">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-lg-8 col-lg-offset-2">
+                                 <div class="modal-body">
+                                     <!-- Project Details Go Here -->
+                                     <h2>FashioNisha</h2>
+                                     <p class="item-intro text-muted">Logo Redesign</p>
+
+                                     <img class="img-responsive img-centered" src="img/designs/fashionisha-after.png" alt="">
+                                     <ul class = "list-inline">I reached out to style icon FashionNisha to redesign her logo in a way that represented her style. It's feminine, hence the use of pink; elegant, thus use of the script; and clean cut. I felt this was representative of her style and work ethic and was excited to see her use it! This is what it was before</ul>
+
+                                     <img class="img-responsive img-centered" src="img/designs/fashionisha-before.jpg" style="width:400px;" alt="">
+                                     <p>
+                                     <!-- <ul class="list-inline">
+                                         <li>Date: July 2014</li>
+                                         <li>Client: Round Icons</li>
+                                         <li>Category: Graphic Design</li>
+                                     </ul> -->
+                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <!-- Portfolio Modal 2 -->
+             <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                 <div class="modal-content">
+                     <div class="close-modal" data-dismiss="modal">
+                         <div class="lr">
+                             <div class="rl">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-lg-8 col-lg-offset-2">
+                                 <div class="modal-body">
+                                     <h2>Rebuilding the United.com page</h2>
+                                     <p class="item-intro text-muted">(for fun)</p>
+                                     <img class="img-responsive img-centered" src="img/designs/united_home_page.png" alt="">
+                                     <ul><a href="https://medium.com/@sav_vy_sanj/sometimes-the-mind-wanders-b773ac4e60c0#.9jfqms80k">One time I was bored</a> and frustrated with the layout of the United webpage. So I decided to filter out the commercials and "deals" and focus on the functionality of the page. I know I made some mistakes along the way, like in the flight page, I forgot to add a component to go back to main page without hitting the back button. It was an awesome learning experience and I cured a bit of boredom while doing so!</p>
+                                       <img class="img-responsive img-centered" src="img/designs/united_flight_page.png" style="width:400px;" alt="">
+                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i></button>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <!-- Portfolio Modal 3 -->
+             <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                 <div class="modal-content">
+                     <div class="close-modal" data-dismiss="modal">
+                         <div class="lr">
+                             <div class="rl">
+                             </div>
+                         </div>
+                     </div>
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-lg-8 col-lg-offset-2">
+                                 <div class="modal-body">
+                                     <!-- Project Details Go Here -->
+                                     <h2>I grill and 'gram</h2>
+                                     <p class="item-intro text-muted"></p>
+                                     <img class="img-responsive img-centered" src="img/designs/header-bg-berries.jpg" alt="">
+                                     <ul>I enjoy cooking and taking photos in my spare time. Buzzfeed videos is my friend for fast recipes so I get to feed myself in college rather well! Here are a couple things I have cooked, and a couple things that I have taken pictures of:</ul>
+
+                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+
+
+
+
 
     <script src="js/vegas.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
 </body>
 
