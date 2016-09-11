@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is another attempt to make a personal website
 
 It is node based. 
@@ -31,3 +32,6 @@ Lastly, start your server in a different terminal window using __nodemon__ to au
 
 ### Note to self: learn how to do server rendering. 
 I think that the mongoose library does this but do verify
+=======
+My Personal Website.
+>>>>>>> fadb72a2a5076f5e85b19afec7db793494776e50
