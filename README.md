@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 This is another attempt to make a personal website
 
-It is node based. 
+It is node based.
 
 (Note to self, remember how to create node sites by the following commands)
 
@@ -30,8 +30,11 @@ Lastly, start your server in a different terminal window using __nodemon__ to au
 
 * <code>nodemon bin/www</code>
 
-### Note to self: learn how to do server rendering. 
+### Note to self: learn how to do server rendering.
 I think that the mongoose library does this but do verify
 =======
 My Personal Website.
+
+###note to self: icons
+come from the main.css file and 
 >>>>>>> fadb72a2a5076f5e85b19afec7db793494776e50
