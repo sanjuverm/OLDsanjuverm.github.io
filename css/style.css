@@ -90,6 +90,39 @@ a, a:active, a:visited {
   background:#FFF;
 }
 
+/* ===================FONT TEST============================================== */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300);
+
+.large-title {
+  font-family: "Roboto Thin", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.large-title-fixed {
+  font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+.anyclass-a {
+  font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-weight: 300;
+}
+
+.anyclass-b {
+  font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+.anyclass-c {
+  font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
+  font-weight: 100;
+  color: #527543;
+}
+
+
 /* =======================MEDIA QUERIES==================================== */
 @media only screen and (max-width: 1000px) {
   h1 {
