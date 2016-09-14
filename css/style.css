@@ -12,7 +12,7 @@ html, body {
 body {
   background: #FFFFFF;
   color:#8E8E8E;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.3;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -90,6 +90,70 @@ a, a:active, a:visited {
   background:#FFF;
 }
 
+/* ===================NAV BAR TEST============================================== */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #527543;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: ##527543}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* ===================Break Page into 2 TEST============================================== */
+.left {
+    float: left;
+}
+.w50 {
+    width: 50%;
+}
+
 /* ===================FONT TEST============================================== */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300);
 
@@ -119,7 +183,8 @@ a, a:active, a:visited {
 .anyclass-c {
   font-family: "Roboto", 'Helvetica Neue', 'Helveica', 'Arial', sans-serif;
   font-weight: 100;
-  color: #527543;
+  color: black;
+  /*color: #527543;*/
 }
 
 
@@ -195,15 +260,15 @@ a, a:active, a:visited {
 .fade-in {
   opacity: 0;
   /* make things invisible upon start */
-  
+
   -webkit-animation: fadeIn ease-in 1;
   /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  
+
   -moz-animation: fadeIn ease-in 1;
   animation: fadeIn ease-in 1;
   -webkit-animation-fill-mode: forwards;
   /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  
+
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-duration: 1s;
