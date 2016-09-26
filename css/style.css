@@ -90,6 +90,52 @@ a, a:active, a:visited {
   background:#FFF;
 }
 
+.body-rect {
+  position: sticky;;
+  /*position: ;*/
+  margin: auto;
+  top: 0; right: 0; bottom: 0; left: 0;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  background: green;
+  /*background:#FFF;*/
+}
+
+
+/* ===================DESIGN PAGE TEST============================================== */
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.article {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {background: FFF;color:black; font-family: 'Roboto', sans-serif;}
+
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+
 /* ===================NAV BAR TEST============================================== */
 
 ul {
